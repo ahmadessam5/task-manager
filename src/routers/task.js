@@ -26,7 +26,7 @@ router.post('/tasks' , auth,  async (req,res) =>  {
 
 // Get/tasks?completed=true
 // Get/tasks?limit=10&skip=10
-// Get/tasks?sortBy=createdAt:desc
+// Get/tasks? 
 router.get('/tasks' , auth, async (req,res) => {
     const match = {}
     const sort = {}
